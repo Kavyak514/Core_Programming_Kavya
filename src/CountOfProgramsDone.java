@@ -1,9 +1,13 @@
 import com.codetalksdna.Identifier.CountOfFilesInIdentifierPackage;
+import com.codetalksdna.codingPrograms.CountOfFilesInCodingPrograms;
+import com.codetalksdna.dataTypes.CountOfFilesInDataTypes;
 
 public class CountOfProgramsDone {
     public static void main(String[] args) {
         CountOfFilesInIdentifierPackage countOfFilesInAbstractionUsingAbstractClass = new CountOfFilesInIdentifierPackage();
-        int[] files = {countOfFilesInAbstractionUsingAbstractClass.returnFileCount()};
+        CountOfFilesInCodingPrograms countOfFilesInCodingPrograms = new CountOfFilesInCodingPrograms();
+        CountOfFilesInDataTypes countOfFilesInDataTypes = new CountOfFilesInDataTypes();
+        int[] files = {countOfFilesInAbstractionUsingAbstractClass.returnFileCount(), countOfFilesInCodingPrograms.returnFileCount(), countOfFilesInDataTypes.returnFileCount()};
         sumOfProgramsWeDidTillNow(files);
     }
 
