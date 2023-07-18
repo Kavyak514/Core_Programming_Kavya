@@ -11,4 +11,5 @@ public class PrimitiveWrapperDataTypes {
     Double wrapperDouble;
     Long wrapperLong;
     Float wrapperFloat;
+    String stringValue;
 }
