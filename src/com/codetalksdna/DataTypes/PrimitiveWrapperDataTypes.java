@@ -1,4 +1,4 @@
-package com.codetalksdna.dataTypes;
+package com.codetalksdna.DataTypes;
 
 public class PrimitiveWrapperDataTypes {
     int primitiveInt;
