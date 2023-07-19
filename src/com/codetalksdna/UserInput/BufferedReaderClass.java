@@ -1,4 +1,4 @@
-package com.codetalksdna.userInput;
+package com.codetalksdna.UserInput;
 
 import java.io.BufferedReader;
 import java.io.IOException;

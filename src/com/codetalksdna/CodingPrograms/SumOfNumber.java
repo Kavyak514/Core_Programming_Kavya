@@ -1,4 +1,4 @@
-package com.codetalksdna.codingPrograms;
+package com.codetalksdna.CodingPrograms;
 
 //To-Do
 public class SumOfNumber {

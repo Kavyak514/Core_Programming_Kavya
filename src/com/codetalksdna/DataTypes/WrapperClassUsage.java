@@ -1,4 +1,4 @@
-package com.codetalksdna.dataTypes;
+package com.codetalksdna.DataTypes;
 
 public class WrapperClassUsage {
     public static void main(String[] args) {

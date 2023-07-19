@@ -1,4 +1,4 @@
-package com.codetalksdna.dataTypes;
+package com.codetalksdna.DataTypes;
 
 import java.time.Instant;
 

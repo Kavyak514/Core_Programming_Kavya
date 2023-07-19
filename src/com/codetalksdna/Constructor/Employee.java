@@ -1,4 +1,4 @@
-package com.codetalksdna.constructor;
+package com.codetalksdna.Constructor;
 
 public class Employee {
     String name;
