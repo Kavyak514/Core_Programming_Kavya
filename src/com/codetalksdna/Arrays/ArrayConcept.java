@@ -5,17 +5,16 @@ public class ArrayConcept {
         int[] arr = {1, 2, 3, 4, 5};
         int[] arrs = new int[10];
 
-//        printArrays(arr);
-
         for (int i = 0; i < arrs.length; i++) {
             arrs[i] = i;
         }
         printArrays(arrs);
+        printArrays(arr);
     }
 
     public static void printArrays(int[] arr) {
         for (int j : arr) {
-            System.out.print(j +" ");
+            System.out.print(j + " ");
         }
     }
 }
