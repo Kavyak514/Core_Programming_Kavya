@@ -5,7 +5,7 @@ import com.codetalksdna.Arrays.SortingArrayElement;
 import java.util.Random;
 
 public class ArrayOperations {
-    public static void averageOfArray(String[] args) {
+    public static void averageOfArray() {
         int[] array = new int[7];
         array = PushRandomDataToArray.pushDataToOneDArray(array.length);
         int sum = 0;
@@ -38,7 +38,7 @@ public class ArrayOperations {
         }
     }
 
-    public static void findAnElementnArray(String[] args) {
+    public static void findAnElementnArray() {
         int[] array = new int[5];
         array = PushRandomDataToArray.pushDataToOneDArray(array.length);
         int elementIndex = checkForAnElement(array, 7);
@@ -63,7 +63,7 @@ public class ArrayOperations {
         return elementIndex;
     }
 
-    public static void largestElementInAnArray(String[] args) {
+    public static void largestElementInAnArray() {
         int[] array = new int[10];
         array = PushRandomDataToArray.pushDataToOneDArray(array.length);
         array = SortingArrayElement.sortElements(array);
@@ -72,7 +72,7 @@ public class ArrayOperations {
         System.out.println("largest element " + largestElement);
     }
 
-    public static void swappingAnArray(String[] args) {
+    public static void swappingAnArray() {
         int[] array = new int[2];
         Random random = new Random();
         array[0] = random.nextInt(20);
@@ -89,7 +89,7 @@ public class ArrayOperations {
         return arrayNumbers;
     }
 
-    public static void transposeArray(String[] args) {
+    public static void transposeArray() {
         int[][] array = new int[3][2];
         array = PushRandomDataToArray.pushDataToTwoDArray(array.length, array[0].length);
         int[][] transposedArray = new int[array[0].length][array.length];
@@ -98,7 +98,7 @@ public class ArrayOperations {
                 transposedArray[j][i] = array[i][j];
             }
         }
-        System.out.println();
+        System.out.println("");
         System.out.println("transposed array data ");
         for(int i =0; i<transposedArray.length; i++){
             for(int j =0; j<transposedArray[0].length; j++){
