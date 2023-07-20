@@ -20,12 +20,17 @@ public class SortingArrayElement {
     public static int[] sortElements(int[] arrays) {
         for (int i = 0; i < arrays.length - 1; i++) {
             for (int j = i + 1; j < arrays.length; j++) {
-                if (arrays[i] > arrays[j]) {
-                    int temp = arrays[i];
-                    arrays[i] = arrays[j];
-                    arrays[j] = temp;
-                }
+                 arrays = methodSort(arrays, i, j);
             }
+        }
+        return arrays;
+    }
+
+    private static int[] methodSort(int[] arrays, int i, int j) {
+        if (arrays[i] > arrays[j]) {
+            int temp = arrays[i];
+            arrays[i] = arrays[j];
+            arrays[j] = temp;
         }
         return arrays;
     }

@@ -22,6 +22,7 @@ public class PrintArrays {
                 }
                 System.out.println();
             }
+            System.out.println();
         }
     }
 }
