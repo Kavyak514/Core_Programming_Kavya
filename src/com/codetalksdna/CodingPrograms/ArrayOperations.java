@@ -14,7 +14,7 @@ public class ArrayOperations {
         }
         float average = sum/ array.length;
         System.out.println();
-        System.out.println("sum is " + sum);
+        System.out.println("sum is  " + sum);
         System.out.println("average is "+average);
     }
 
