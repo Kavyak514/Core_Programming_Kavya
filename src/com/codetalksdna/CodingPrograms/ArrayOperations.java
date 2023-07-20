@@ -34,7 +34,7 @@ public class ArrayOperations {
         }
             System.out.println(" concatinated array data");
             for(int k = 0; k < totalLength ; k++){
-            System.out.print(" " +concatinatedResult[k]);
+            System.out.print("  " +concatinatedResult[k]);
         }
     }
 
