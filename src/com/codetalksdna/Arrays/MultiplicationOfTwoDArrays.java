@@ -26,10 +26,17 @@ public class MultiplicationOfTwoDArrays {
         printTwoDArrays(intDataArray);
         System.out.println("-----------------------------");
 
-
-        for (int i = 0; i < intDataArray.length; i++) {
-            for (int j = 0; j < intDataArray.length; j++) {
-               //TO-DO
+        int firstArrRowsCount = intArray.length;
+        int secondArrColsCount = intDataArray[0].length;
+        if(firstArrRowsCount == secondArrColsCount ) {
+            for (int i = 0; i < intDataArray.length; i++) {
+                for (int j = 0; j < intDataArray.length; j++) {
+                    intDataArrays[i][j] = 0;
+                    for(int k = 0; k < intDataArray.length; k++) {
+                        //TO-DO
+                        intDataArrays[i][j] = intDataArrays[i][j] + (intArray[i][k] * intDataArray[k][j]);
+                    }
+                }
             }
         }
         printTwoDArrays(intDataArrays);
