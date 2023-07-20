@@ -2,7 +2,7 @@ package com.codetalksdna.Arrays;
 
 import java.util.Random;
 
-public class SortElement {
+public class SortingArrayElement {
     public static void main(String[] args) {
         Random random = new Random();
         int[] arrays = new int[10];
@@ -10,12 +10,14 @@ public class SortElement {
             arrays[i] = random.nextInt(10);
         }
         System.out.println("Before Sorting elements are:-");
-        ArrayConcept.printArrays(arrays);
-        sortElements(arrays);
+        PrintArrays.printOneDArrays(arrays);
+        int[] ints = sortElements(arrays);
+        System.out.println("After Sorting elements are:-");
+        PrintArrays.printOneDArrays(ints);
     }
 
-    //Try this
-    public static void sortElements(int[] arrays) {
+    //To-Do
+    public static int[] sortElements(int[] arrays) {
         for (int i = 0; i < arrays.length - 1; i++) {
             for (int j = i + 1; j < arrays.length; j++) {
                 if (arrays[i] > arrays[j]) {
@@ -25,7 +27,6 @@ public class SortElement {
                 }
             }
         }
-        System.out.println("After Sorting elements are:-");
-        ArrayConcept.printArrays(arrays);
+        return arrays;
     }
 }
