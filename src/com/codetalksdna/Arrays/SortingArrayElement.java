@@ -18,12 +18,13 @@ public class SortingArrayElement {
 
     //To-Do
     public static int[] sortElements(int[] arrays) {
+        int[] sortedArray = new int[arrays.length];
         for (int i = 0; i < arrays.length - 1; i++) {
             for (int j = i + 1; j < arrays.length; j++) {
-                 arrays = methodSort(arrays, i, j);
+                sortedArray = methodSort(arrays, i, j);
             }
         }
-        return arrays;
+        return sortedArray;
     }
 
     private static int[] methodSort(int[] arrays, int i, int j) {
