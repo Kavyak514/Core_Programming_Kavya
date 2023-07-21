@@ -6,6 +6,7 @@ import com.codetalksdna.CodingPrograms.CountOfFilesInCodingPrograms;
 import com.codetalksdna.Constructor.CountOfFilesInConstructorPackage;
 import com.codetalksdna.DataTypes.CountOfFilesInDataTypes;
 import com.codetalksdna.InheritancePrograms.CountOfProgramInInheritance;
+import com.codetalksdna.Objects.CountOfFilesInObjectsPackage;
 import com.codetalksdna.PolymorphismPrograms.CountOfProgramInPolymorohism;
 import com.codetalksdna.UserInput.CountOfFilesInUserInputPackage;
 
@@ -19,9 +20,10 @@ public class CountOfProgramsDone {
         CountOfFilesInEncapsulation countOfFilesInEncapsulation = new CountOfFilesInEncapsulation();
         CountOfFilesInIdentifierPackage countOfFilesInIdentifierPackage = new CountOfFilesInIdentifierPackage();
         CountOfProgramInInheritance countOfProgramInInheritance = new CountOfProgramInInheritance();
+        CountOfFilesInObjectsPackage countOfFilesInObjectsPackage = new CountOfFilesInObjectsPackage();
         CountOfProgramInPolymorohism countOfProgramInPolymorohism = new CountOfProgramInPolymorohism();
         CountOfFilesInUserInputPackage countOfFilesInUserInputPackage = new CountOfFilesInUserInputPackage();
-        int[] files = {countOfFilesInAbstraction.returnFileCount(), countOfFilesInCodingPrograms.returnFileCount(), countOfFilesInDataTypes.returnFileCount(), countOfFilesInUserInputPackage.returnFileCount(), countOfFilesInConstructorPackage.returnFileCount(), countOfFilesInArrays.returnFileCount(), countOfFilesInEncapsulation.returnFileCount(), countOfFilesInIdentifierPackage.returnFileCount(), countOfProgramInInheritance.returnFileCount(), countOfProgramInPolymorohism.returnFileCount()};
+        int[] files = {countOfFilesInAbstraction.returnFileCount(), countOfFilesInCodingPrograms.returnFileCount(), countOfFilesInDataTypes.returnFileCount(), countOfFilesInUserInputPackage.returnFileCount(), countOfFilesInConstructorPackage.returnFileCount(), countOfFilesInArrays.returnFileCount(), countOfFilesInEncapsulation.returnFileCount(), countOfFilesInIdentifierPackage.returnFileCount(), countOfProgramInInheritance.returnFileCount(), countOfProgramInPolymorohism.returnFileCount(), countOfFilesInObjectsPackage.returnFileCount()};
         System.out.println("Packages Created Here" + " " + files.length);
         sumOfProgramsWeDidTillNow(files);
     }
