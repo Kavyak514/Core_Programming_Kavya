@@ -8,9 +8,6 @@ public class ArrayOperations {
         for(int i =0; i < array.length; i++){
             sum = sum + array[i];
         }
-        double average = sum/array.length;
-        System.out.println();
         System.out.println("Sum is  " + sum);
-        System.out.println("Average is "+average);
     }
 }
