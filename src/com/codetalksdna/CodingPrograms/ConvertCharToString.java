@@ -1,6 +1,4 @@
-package com.codetalksdna.CodingPrograms.TypeConversions;
-
-import java.util.Arrays;
+package com.codetalksdna.CodingPrograms;
 
 public class ConvertCharToString {
     public static void main(String[] args) {

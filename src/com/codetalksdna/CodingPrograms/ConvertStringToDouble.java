@@ -1,9 +1,9 @@
-package com.codetalksdna.CodingPrograms.TypeConversions;
+package com.codetalksdna.CodingPrograms;
 
 public class ConvertStringToDouble {
     public static void main(String[] args) {
         String str = "40.5";
-        double d = Double.valueOf(str);
+        double d = Double.parseDouble(str);
         System.out.println("String is" + " " + str);
         System.out.println("Double is" + " " + d);
 
@@ -11,7 +11,7 @@ public class ConvertStringToDouble {
         System.out.println("Double is" + " " + d2);
 
         String str1 = "3";
-        double d1 = Double.valueOf(str1);
+        double d1 = Double.parseDouble(str1);
         System.out.println("String is" + " " + str1);
         System.out.println("Double is" + " " + d1);
 
