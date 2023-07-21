@@ -1,4 +1,4 @@
-package com.codetalksdna.CodingPrograms.TypeConversions;
+package com.codetalksdna.CodingPrograms;
 
 public class ConvertPrimitiveToObject {
     public static void main(String[] args) {
