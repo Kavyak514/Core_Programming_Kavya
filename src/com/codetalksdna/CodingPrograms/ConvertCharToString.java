@@ -3,10 +3,12 @@ package com.codetalksdna.CodingPrograms;
 public class ConvertCharToString {
     public static void main(String[] args) {
         char c = 's';
-        System.out.println("Character is" + " " + c);
+        //convert char array to string
         String str = Character.toString(c);
+        System.out.println("Character is" + " " + c);
         System.out.println("String is" + " " + str);
 
+        //convert char array to string
         String str32 = String.valueOf(c);
         System.out.println("String is str32" + " " + str32);
 
