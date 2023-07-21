@@ -7,6 +7,7 @@ public class ConvertCharToInt {
         System.out.println("Character1 is"+" "+c);
         System.out.println("Character2 is"+" "+c1);
 
+        //convert char to int
         int i = c;
         int i2 = Integer.parseInt(String.valueOf(c1));
         System.out.println("Integer is i"+" "+i);

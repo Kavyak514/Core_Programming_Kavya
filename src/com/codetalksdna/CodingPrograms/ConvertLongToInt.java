@@ -4,6 +4,7 @@ public class ConvertLongToInt {
     public static void main(String[] args) {
         long a = 500000000L;
         long b = 23455L;
+        //convert long to int
         int i = (int) a;
         int i1 = (int) b;
         System.out.println("Long first number, second number are" + " " + a + ", " + b);
