@@ -1,6 +1,6 @@
 package com.codetalksdna.CodingPrograms;
 
-//To-Do
+//To-Do Various Operations like as BITWISE,RELATIONAL AND MATHEMATICAL
 public class SumOfNumber {
     public static void main(String[] args) {
         int firstNumber = 10;
