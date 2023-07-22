@@ -26,6 +26,7 @@ public class CountOfProgramsDone {
         int[] files = {countOfFilesInAbstraction.returnFileCount(), countOfFilesInCodingPrograms.returnFileCount(), countOfFilesInDataTypes.returnFileCount(), countOfFilesInUserInputPackage.returnFileCount(), countOfFilesInConstructorPackage.returnFileCount(), countOfFilesInArrays.returnFileCount(), countOfFilesInEncapsulation.returnFileCount(), countOfFilesInIdentifierPackage.returnFileCount(), countOfProgramInInheritance.returnFileCount(), countOfProgramInPolymorohism.returnFileCount(), countOfFilesInObjectsPackage.returnFileCount()};
         System.out.println("Packages Created Here" + " " + files.length);
         sumOfProgramsWeDidTillNow(files);
+        System.out.println("Total Number of Programs Done till Now by Yourself" + "::" + countOfFilesInCodingPrograms.returnFileCount());
     }
 
     public static void sumOfProgramsWeDidTillNow(int[] files) {
