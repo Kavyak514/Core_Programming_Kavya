@@ -12,6 +12,5 @@ public class DefaultInterfaceRelatedMain extends DefaultInterfaceRelatedClass im
     public static void main(String[] args) {
         DefaultInterfaceRelatedMain defaultInterfaceRelatedMain = new DefaultInterfaceRelatedMain();
         defaultInterfaceRelatedMain.printMsg();
-
     }
 }

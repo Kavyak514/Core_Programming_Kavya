@@ -1,6 +1,6 @@
 package com.codetalksdna.CodingPrograms;
 
-public interface TelivisionInterface {
+public interface TelevisionInterface {
     void tvNameDisplay();
     void tvConfigs();
     default void turnOffTv(){

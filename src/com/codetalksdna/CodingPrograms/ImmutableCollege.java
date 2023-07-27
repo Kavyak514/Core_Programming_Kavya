@@ -1,8 +1,8 @@
 package com.codetalksdna.CodingPrograms;
 
 public class ImmutableCollege {
-    private int collegeId;
-    private String collegeName;
+    private final int collegeId;
+    private final String collegeName;
 
     ImmutableCollege(int collegeId, String collegeName){
         this.collegeId = collegeId;
@@ -21,7 +21,6 @@ class Main {
 
         // create object of Immutable
         ImmutableCollege obj = new ImmutableCollege(11, "JNTUH");
-
         System.out.println("Id: " + obj.getCollegeId());
         System.out.println("Name: " + obj.getCollegeName());
     }
