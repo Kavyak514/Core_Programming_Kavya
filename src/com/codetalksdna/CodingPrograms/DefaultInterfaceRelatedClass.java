@@ -2,6 +2,6 @@ package com.codetalksdna.CodingPrograms;
 
 public class DefaultInterfaceRelatedClass {
     public void printMsg(){
-        System.out.println("msg printed in default class");
+        System.out.println("Msg printed in default class");
     }
 }
