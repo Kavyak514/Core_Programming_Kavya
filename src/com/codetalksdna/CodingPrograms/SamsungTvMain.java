@@ -1,6 +1,6 @@
 package com.codetalksdna.CodingPrograms;
 
-public class SamsungTvMain implements TelivisionInterface {
+public class SamsungTvMain implements TelevisionInterface {
     @Override
     public void tvNameDisplay() {
         System.out.println("Tv Company is samsung");
@@ -18,16 +18,16 @@ public class SamsungTvMain implements TelivisionInterface {
 
     @Override
     public void changeChannelInTv() {
-        TelivisionInterface.super.changeChannelInTv();
-        TelivisionInterface.super.turnOffTv();
+        TelevisionInterface.super.changeChannelInTv();
+        TelevisionInterface.super.turnOffTv();
     }
 
     public static void main(String[] args) {
         SamsungTvMain samsungTvMain = new SamsungTvMain();
         samsungTvMain.tvNameDisplay();
         samsungTvMain.tvConfigs();
-        samsungTvMain.turnOffTv();// this prints samgung class method not telivision class method
+        samsungTvMain.turnOffTv();// this prints samsung class method not television class method
         samsungTvMain.changeChannelInTv();
-        TelivisionInterface.turnOnTv(); // as turnOnTv() is static, referencing with interface/class name and static methds cannot be overriden
+        TelevisionInterface.turnOnTv(); // as turnOnTv() is static, referencing with interface/class name and static methods cannot be overridden.
     }
 }
