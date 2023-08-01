@@ -1,6 +1,5 @@
 package com.codetalksdna.CodingPrograms;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class ExceptionHandling1 {
@@ -16,9 +15,8 @@ public class ExceptionHandling1 {
             a1[2] = 3;
             System.out.println("test");
             System.out.println("division of two numbers is " + c);
-        }catch (Exception e){
-            e.printStackTrace();
+        } catch (Exception e) {
+            System.out.println("Welcome to Java");
         }
     }
-
 }
