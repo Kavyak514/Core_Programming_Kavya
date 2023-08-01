@@ -8,7 +8,6 @@ public class ArithmeticExceptionHandling {
         int number = 10;
         try {
             int value = number / scanner.nextInt();
-            System.out.println("ygkujhb");
         } catch (ArithmeticException exception) {
             exception.printStackTrace();
         } finally {
