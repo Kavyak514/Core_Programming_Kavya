@@ -2,21 +2,24 @@ package com.codetalksdna.CodingPrograms;
 
 import java.util.Scanner;
 
-public class ExceptionHandling1 {
+public class OddNumberCustomException {
     public static void main(String[] args){
         try {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Please enter the first number");
             int a = scanner.nextInt();
-            System.out.println("Please enter the second number");
+            System.out.println("Please enter the selc d number");
             int b = scanner.nextInt();
-            int c = a / b;
-            int[] a1 = new int[2];
-            a1[2] = 3;
-            System.out.println("test");
-            System.out.println("division of two numbers is " + c);
+            checkWhetherNumberIsOdd(a, b);
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    private static void checkWhetherNumberIsOdd(int a, int b) throws OddNumCustomExceptionClass {
+        if(a%2 != 0){
+            throw new IllegalArgumentException("Number is odd");
+        }
+        System.out.println(a/b);
     }
 }
