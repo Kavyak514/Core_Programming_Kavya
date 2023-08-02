@@ -3,23 +3,21 @@ package com.codetalksdna.CodingPrograms;
 import java.util.Scanner;
 
 public class OddNumberCustomException {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         try {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Please enter the first number");
+            System.out.println("Please enter the number");
             int a = scanner.nextInt();
-            System.out.println("Please enter the selc d number");
-            int b = scanner.nextInt();
-            checkWhetherNumberIsOdd(a, b);
-        } catch (Exception e) {
+            checkWhetherNumberIsOdd(a);
+        } catch (OddNumCustomExceptionClass e) {
             e.printStackTrace();
         }
     }
 
-    private static void checkWhetherNumberIsOdd(int a, int b) throws OddNumCustomExceptionClass {
-        if(a%2 != 0){
-            throw new IllegalArgumentException("Number is odd");
+    private static void checkWhetherNumberIsOdd(int a) throws OddNumCustomExceptionClass {
+        if (a % 2 != 0) {
+            throw new OddNumCustomExceptionClass("Number is odd");
         }
-        System.out.println(a/b);
+        System.out.println("Number " + a + " is even");
     }
 }
