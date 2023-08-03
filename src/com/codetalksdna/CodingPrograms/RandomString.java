@@ -15,16 +15,16 @@ public class RandomString {
         Random random = new Random();
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         char[] charArray = characters.toCharArray();
-        for (int j = 0; j < random.nextInt(10); j++) {
+        int numRandomStrings = random.nextInt(1, 9);
+
+        for (int j = 0; j < numRandomStrings; j++) {
             StringBuilder stringBuilder = new StringBuilder();
-            for (int i = 0; i < random.nextInt(10); i++) {
-                stringBuilder.append(charArray[random.nextInt(25)]);
+            while (stringBuilder.length() < 5) {
+                stringBuilder.append(charArray[random.nextInt(26)]);
             }
-            if (stringBuilder.length() >= 3) {
-                strings.add(String.valueOf(stringBuilder));
-            }
+            strings.add(stringBuilder.toString());
         }
-        strings.add("Exit");
+        strings.add("exit");
         return strings;
     }
 }
