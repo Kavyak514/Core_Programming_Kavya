@@ -16,7 +16,6 @@ public class RandomString {
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         char[] charArray = characters.toCharArray();
         int numRandomStrings = random.nextInt(1, 9);
-
         for (int j = 0; j < numRandomStrings; j++) {
             StringBuilder stringBuilder = new StringBuilder();
             while (stringBuilder.length() < 5) {
