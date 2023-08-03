@@ -11,6 +11,8 @@ public class DeSerializationClass {
         Student student = (Student) objectInputStream.readObject();
         System.out.println(student.name);
         System.out.println(student.rollNo);
+        System.out.println(student.userName);
+        System.out.println(student.password);
         objectInputStream.close();
         fileInputStream.close();
     }
