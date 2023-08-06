@@ -8,7 +8,7 @@ public class RunnableInterfaces implements Runnable{
     }
 
     public static void main(String[] args) {
-        Thread threadClass = new Thread();
+        Thread threadClass = new Thread(new RunnableInterfaces());
         threadClass.start();
         System.out.println(Thread.activeCount());
         threadClass.start();

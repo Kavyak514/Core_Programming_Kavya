@@ -10,7 +10,7 @@ public class ThreadCountExample {
         try {
             Thread.sleep(100);
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            e.fillInStackTrace();
         }
 
         System.out.println("Main thread exiting.");
