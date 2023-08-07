@@ -1,5 +1,6 @@
 import com.codetalksdna.Abstraction.CountOfFilesInAbstraction;
 import com.codetalksdna.Arrays.CountOfFilesInArrays;
+import com.codetalksdna.Collections.CountOfFilesInCollectionsPackage;
 import com.codetalksdna.EncapsulationPrograms.CountOfFilesInEncapsulation;
 import com.codetalksdna.ExceptionHandling.CountOfFilesInExceptionHandling;
 import com.codetalksdna.FileIO.CountOfFilesInFileIO;
@@ -20,6 +21,7 @@ public class CountOfProgramsDone {
         CountOfFilesInAbstraction countOfFilesInAbstraction = new CountOfFilesInAbstraction();
         CountOfFilesInArrays countOfFilesInArrays = new CountOfFilesInArrays();
         CountOfFilesInCodingPrograms countOfFilesInCodingPrograms = new CountOfFilesInCodingPrograms();
+        CountOfFilesInCollectionsPackage countOfFilesInCollectionsPackage = new CountOfFilesInCollectionsPackage();
         CountOfFilesInConstructorPackage countOfFilesInConstructorPackage = new CountOfFilesInConstructorPackage();
         CountOfFilesInDataTypes countOfFilesInDataTypes = new CountOfFilesInDataTypes();
         CountOfFilesInEncapsulation countOfFilesInEncapsulation = new CountOfFilesInEncapsulation();
@@ -31,9 +33,9 @@ public class CountOfProgramsDone {
         CountOfFilesInMultithreading countOfFilesInMultithreading = new CountOfFilesInMultithreading();
         CountOfFilesInObjectsPackage countOfFilesInObjectsPackage = new CountOfFilesInObjectsPackage();
         CountOfProgramInPolymorohism countOfProgramInPolymorohism = new CountOfProgramInPolymorohism();
-        CountOfFilesInSerialization countOfFilesInSerialization= new CountOfFilesInSerialization();
+        CountOfFilesInSerialization countOfFilesInSerialization = new CountOfFilesInSerialization();
         CountOfFilesInUserInputPackage countOfFilesInUserInputPackage = new CountOfFilesInUserInputPackage();
-        int[] files = {countOfFilesInAbstraction.returnFileCount(), countOfFilesInCodingPrograms.returnFileCount(), countOfFilesInDataTypes.returnFileCount(), countOfFilesInUserInputPackage.returnFileCount(), countOfFilesInConstructorPackage.returnFileCount(), countOfFilesInArrays.returnFileCount(), countOfFilesInEncapsulation.returnFileCount(), countOfFilesInIdentifierPackage.returnFileCount(), countOfProgramInInheritance.returnFileCount(), countOfProgramInPolymorohism.returnFileCount(), countOfFilesInObjectsPackage.returnFileCount(), countOfFilesInExceptionHandling.returnFileCount(), countOfFilesInFileIO.returnFileCount(), countOfFilesInMultithreading.returnFileCount(),countOfFilesInJava8Features.returnFileCount(),countOfFilesInSerialization.returnFileCount()};
+        int[] files = {countOfFilesInAbstraction.returnFileCount(), countOfFilesInCodingPrograms.returnFileCount(), countOfFilesInDataTypes.returnFileCount(), countOfFilesInUserInputPackage.returnFileCount(), countOfFilesInConstructorPackage.returnFileCount(), countOfFilesInArrays.returnFileCount(), countOfFilesInEncapsulation.returnFileCount(), countOfFilesInIdentifierPackage.returnFileCount(), countOfProgramInInheritance.returnFileCount(), countOfProgramInPolymorohism.returnFileCount(), countOfFilesInObjectsPackage.returnFileCount(), countOfFilesInExceptionHandling.returnFileCount(), countOfFilesInFileIO.returnFileCount(), countOfFilesInMultithreading.returnFileCount(), countOfFilesInJava8Features.returnFileCount(), countOfFilesInSerialization.returnFileCount(), countOfFilesInCollectionsPackage.returnFileCount()};
         System.out.println("Packages Created Here" + " " + files.length);
         sumOfProgramsWeDidTillNow(files);
         System.out.println("Total Number of Programs Done till Now by Yourself" + "::" + countOfFilesInCodingPrograms.returnFileCount());
