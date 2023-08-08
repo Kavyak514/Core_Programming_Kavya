@@ -15,7 +15,7 @@ public class RandomString {
         Random random = new Random();
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         char[] charArray = characters.toCharArray();
-        int numRandomStrings = random.nextInt(1, 9);
+        /*int numRandomStrings = random.nextInt(1, 9);
         for (int j = 0; j < numRandomStrings; j++) {
             StringBuilder stringBuilder = new StringBuilder();
             while (stringBuilder.length() < 5) {
@@ -23,7 +23,7 @@ public class RandomString {
             }
             strings.add(stringBuilder.toString());
         }
-        strings.add("exit");
+        strings.add("exit");*/
         return strings;
     }
 }
