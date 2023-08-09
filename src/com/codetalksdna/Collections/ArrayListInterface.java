@@ -9,7 +9,7 @@ public class ArrayListInterface {
         arrayList.add(200);
         arrayList.add(100);
         System.out.println(arrayList);
-        arrayList.get(0);
+        System.out.println(arrayList.get(0));
         if (arrayList.contains(200)) {
             System.out.println("True Data Exist");
         }

@@ -9,7 +9,7 @@ public class LinkedListInterface {
         linkedList.add(200);
         linkedList.add(100);
         System.out.println(linkedList);
-        linkedList.get(0);
+        System.out.println(linkedList.get(0));
         if (linkedList.contains(200)) {
             System.out.println("True Data Exist");
         }
