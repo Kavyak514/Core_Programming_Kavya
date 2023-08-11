@@ -3,6 +3,14 @@ package com.codetalksdna.Java8Features;
 @FunctionalInterface
 interface CatInterface {
     void eat();
+
+    default void sleep() {
+        System.out.println("Cat is sleeping");
+    }
+
+    static void drink() {
+        System.out.println("Cat is drinking");
+    }
 }
 
 public class CatInterfaceImplementation implements CatInterface {
