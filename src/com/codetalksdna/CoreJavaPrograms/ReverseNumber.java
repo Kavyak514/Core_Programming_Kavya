@@ -11,10 +11,6 @@ public class ReverseNumber {
             number = number / 10;
         }
         System.out.println("reverse of is "+reversedNum);
-        if(number == reversedNum){
-            System.out.println("Number is a palindrome");
-        }else{
-            System.out.println("Number is not a palindrome");
-        }
+        System.out.println("Number is not a palindrome");
     }
 }

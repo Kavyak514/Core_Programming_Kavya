@@ -4,18 +4,18 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class FibinacciSeries {
+public class FibonacciSeries {
     public static void main(String[] args) {
         int length = 10;
         int firstNum = 0;
         int secondNum = 1;
-        List<Integer> fibinacci = new LinkedList<>();
-        fibinacci.add(firstNum);
-        fibinacci.add(secondNum);
+        List<Integer> fibonacci = new LinkedList<>();
+        fibonacci.add(firstNum);
+        fibonacci.add(secondNum);
         for(int i = 2; i <= length; i++){
-            int series = fibinacci.get(i-2)+fibinacci.get(i-1);
-            fibinacci.add(series);
+            int series = fibonacci.get(i-2)+fibonacci.get(i-1);
+            fibonacci.add(series);
         }
-        System.out.println(fibinacci);
+        System.out.println(fibonacci);
     }
 }
