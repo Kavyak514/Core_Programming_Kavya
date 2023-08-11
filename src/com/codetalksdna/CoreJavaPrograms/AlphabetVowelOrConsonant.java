@@ -21,9 +21,10 @@ public class AlphabetVowelOrConsonant {
     public static void checkAlphabetIsVowel(char alphabet){
         boolean isVowel = false;
         char[] vowels = new char[]{'A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u'};
-        for(int i = 0; i < vowels.length; i++){
-            if(vowels[i]==alphabet){
+        for (char vowel : vowels) {
+            if (vowel == alphabet) {
                 isVowel = true;
+                break;
             }
         }
         if(isVowel){
