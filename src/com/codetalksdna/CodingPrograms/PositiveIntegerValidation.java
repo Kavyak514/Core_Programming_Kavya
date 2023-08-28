@@ -1,7 +1,7 @@
 package com.codetalksdna.CodingPrograms;
 
-import java.util.regex.Pattern;
 import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class PositiveIntegerValidation {
     public static boolean isValidPositiveInteger(String input) {

@@ -1,6 +1,7 @@
 package com.codetalksdna.Arrays;
 
 import java.util.Random;
+
 import static com.codetalksdna.Arrays.PrintArrays.printTwoDArrays;
 
 public class TwoDArrays {

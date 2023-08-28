@@ -1,7 +1,6 @@
 package com.codetalksdna.Objects;
 
-import java.util.*;
-import java.lang.*;
+import java.util.Date;
 
 public class NewInstanceKeyword {
     public static void main(String[] args) {

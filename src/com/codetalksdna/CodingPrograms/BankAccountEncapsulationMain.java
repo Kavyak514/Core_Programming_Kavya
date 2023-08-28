@@ -1,7 +1,5 @@
 package com.codetalksdna.CodingPrograms;
 
-import java.util.Scanner;
-
 public class BankAccountEncapsulationMain {
     public static void main(String[] args) {
         BankAccountEncapsulation bankAccountEncapsulation = new BankAccountEncapsulation();
